@@ -44,6 +44,13 @@ Model Used:
 Evaluation Metric: 
 - RMSE (Root Mean Squared Error)
 
+## Model Performance
+Test RMSE: 120.38
+
+RMSE measures the typical error between predicted uplift and actual uplift.
+
+Since the average uplift values are in the 300–400 range, an RMSE of 120 means the model is moderately accurate — good enough for trend predictions, but not for fine-grained forecasting.
+
 ## Event-Window Uplift (Observed Data)
 The raw festival vs. non-festival uplift % by region:
 
