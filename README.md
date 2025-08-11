@@ -46,10 +46,12 @@ Evaluation Metric:
 
 ## Event-Window Uplift (Observed Data)
 The raw festival vs. non-festival uplift % by region:
+
 Highest observed uplift:
 - West, Diwali → +25.79% vs baseline sales
 - East, Diwali → +24.86%
 - North, Diwali → +25.13%
+
 Lowest uplift: 
 - Around +14% for Eid in various regions
 
