@@ -36,7 +36,7 @@ Frameworks/Libraries Used:
 - numpy for calculations
 - scikit-learn for prediction modeling
 - matplotlib/seaborn for visualization
-Model Used: 
+Model Used:
 - Linear Regression (from sklearn.linear_model.LinearRegression)
 Evaluation Metric: 
 - RMSE (Root Mean Squared Error)
