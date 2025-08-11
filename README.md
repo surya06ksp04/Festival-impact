@@ -28,6 +28,31 @@ python scripts/festival_analysis.py
 - For forecasting use more advanced time-series cross-sectional models or Prophet.
 - To predict best festival next year, add macro features, Google Trends, airfare promotions, and policy info.
 
+## Framework & Model
+-Language: Python
+-Frameworks/Libraries Used:
+pandas for data handling
+numpy for calculations
+scikit-learn for prediction modeling
+matplotlib/seaborn for visualization
+-Model Used: Linear Regression (from sklearn.linear_model.LinearRegression)
+-Evaluation Metric: RMSE (Root Mean Squared Error)
+
+## Event-Window Uplift (Observed Data)
+The raw festival vs. non-festival uplift % by region:
+-Highest observed uplift:
+West, Diwali → +25.79% vs baseline sales
+East, Diwali → +24.86%
+North, Diwali → +25.13%
+-Lowest uplift: Around +14% for Eid in various regions
+
+## Insights
+-Diwali is the most economically impactful festival across all regions, with retail uplift often exceeding +25% over non-festival periods.
+-Christmas is consistently second, with strong travel & shopping spikes.
+-Eid also has notable impact, but slightly lower compared to the other two festivals in retail terms.
+-The prediction model aligns with the observed trends, indicating good generalization despite moderate RMSE.
+
+
 
 
 
